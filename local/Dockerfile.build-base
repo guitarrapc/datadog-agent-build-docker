@@ -1,0 +1,5 @@
+FROM go-python:1.0.0
+WORKDIR $GOPATH/src/github.com/DataDog/datadog-agent
+COPY ./datadog-agent $GOPATH/src/github.com/DataDog/datadog-agent
+RUN pip install -r requirements.txt
+RUN invoke deps

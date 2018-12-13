@@ -1,0 +1,3 @@
+[submodule "local/datadog-agent"]
+	path = local/datadog-agent
+	url = https://github.com/guitarrapc/datadog-agent.git
